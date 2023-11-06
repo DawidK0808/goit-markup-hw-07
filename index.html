@@ -18,6 +18,11 @@
     <div class="container header-layout">
         <nav class="navigation">
             <a href="./index.html" class="logo link">Web<span class="part-logo">Studio</span></a>
+            <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <svg class="menu-hamburger" width="32" height="22">
+                    <use href="./images/hamburger.svg#icon-charm_menu-hamburger"></use>
+                </svg>
+            </button>
             <ul class="list page-navigation">
                 <li>
                     <a href="./index.html" class="link page-link page-link-studio">Studio</a>
@@ -44,7 +49,9 @@
     <section class="section order-section">
         <div class="container">
             <h1 class="main-header">Effective Solutions for Your Business</h1>
-            <button type="button" class="order-button" data-modal-open>Order Service</button>
+            <button type="button" class="order-button" data-modal-open>
+                Order Service
+            </button>
         </div>
     </section>
     <section class="section">
@@ -57,7 +64,7 @@
                             <use href="./images/icons.svg#icon-antenna-1"></use>
                         </svg>
                     </div>
-                    <h3 class="small-header">Strategy</h3>
+                    <h3 class="small-header-services">Strategy</h3>
                     <p class="services-description">
                         Our goal is to identify the business problem to walk away with
                         the perfect and creative solution.
@@ -69,7 +76,7 @@
                             <use href="./images/icons.svg#icon-clock-1"></use>
                         </svg>
                     </div>
-                    <h3 class="small-header">Punctuality</h3>
+                    <h3 class="small-header-services">Punctuality</h3>
                     <p class="services-description">
                         Bring the key message to the brand's audience for the best price
                         within the shortest possible time.
@@ -81,7 +88,7 @@
                             <use href="./images/icons.svg#icon-diagram-1"></use>
                         </svg>
                     </div>
-                    <h3 class="small-header">Diligence</h3>
+                    <h3 class="small-header-services">Diligence</h3>
                     <p class="services-description">
                         Research and confirm brands that present the strongest digital
                         growth opportunities and minimize risk.
@@ -93,7 +100,7 @@
                             <use href="./images/icons.svg#icon-astronaut-1"></use>
                         </svg>
                     </div>
-                    <h3 class="small-header">Technologies</h3>
+                    <h3 class="small-header-services">Technologies</h3>
                     <p class="services-description">
                         Design practice focused on digital experiences. We bring forth a
                         deep passion for problem-solving.
@@ -107,14 +114,22 @@
             <h2 class="section-header">What are we doing</h2>
             <ul class="list third-section-list">
                 <li class="third-section-item">
-                    <img src="./images/screen.jpg" alt="pc screen photo" width="360" height="300" />
+                    <img src="./images/screen@1x.jpg" alt="pc screen photo" width="360" height="300" srcset="
+                    ./images/screen@1x.jpg 1x,
+                    ./images/dcreen@2x.jpg 2x
+                " />
                 </li>
                 <li class="third-section-item">
-                    <img src="./images/phone.jpg" alt="mobile phone with multiple screens photo" width="360"
-                        height="300" />
+                    <img src="./images/phone1@1x.jpg" alt="pc screen photo" width="360" height="300" srcset="
+                  ./images/phone1@1x.jpg 1x,
+                  ./images/phone1@2x.jpg 2x
+                " />
                 </li>
                 <li class="third-section-item">
-                    <img src="./images/phone2.jpg" alt="mobile phone held by someone" width="360" height="300" />
+                    <img src="./images/gallery-img3@1x.jpg" alt="pc screen photo" width="360" height="300" srcset="
+                  ./images/phone2@1x.jpg 1x,
+                  ./images/phone2@2x.jpg 2x
+                " />
                 </li>
             </ul>
         </div>
@@ -124,10 +139,13 @@
             <h2 class="section-header">Our team</h2>
             <ul class="list team-list">
                 <li class="team-tile">
-                    <img src="./images/mark.jpg" alt="photo of a middle aged man in light blue shirt and beard"
-                        width="264" height="260" />
+                    <img src="./images/mark@1x.jpg" alt="photo of a middle aged man in light blue shirt and beard"
+                        width="264" height="260" srcset="
+                  ./images/mark@1x.jpg 1x,
+                  ./images/mark@2x.jpg 2x
+                " />
                     <div class="team-description">
-                        <h3 class="small-header team-header">Mark Guerrero</h3>
+                        <h3 class="team-header">Mark Guerrero</h3>
                         <p class="job-title">Product Designer</p>
                         <ul class="list social-media">
                             <li class="social-media-icon">
@@ -162,11 +180,13 @@
                     </div>
                 </li>
                 <li class="team-tile">
-                    <img src="./images/tom.jpg"
-                        alt="photo of a young man in a light blue shirt and short facial hair" width="264"
-                        height="260" />
+                    <img src="./images/tom@1x.jpg" alt="photo of a middle aged man in light blue shirt and beard"
+                        width="264" height="260" srcset="
+                  ./images/tom@1x.jpg 1x,
+                  ./images/tom@2x.jpg 2x
+                " />
                     <div class="team-description">
-                        <h3 class="small-header team-header">Tom Ford</h3>
+                        <h3 class="team-header">Tom Ford</h3>
                         <p class="job-title">Frontend Developer</p>
                         <ul class="list social-media">
                             <li class="social-media-icon">
@@ -201,10 +221,13 @@
                     </div>
                 </li>
                 <li class="team-tile">
-                    <img src="./images/camila.jpg" alt="photo of a young woman with long brown hair and pink blouse"
-                        width="264" height="260" />
+                    <img src="./images/camila@1x.jpg" alt="photo of a middle aged man in light blue shirt and beard"
+                        width="264" height="260" srcset="
+                  ./images/camila@1x.jpg 1x,
+                  ./images/camila@2x.jpg 2x
+                " />
                     <div class="team-description">
-                        <h3 class="small-header team-header">Camila Garcia</h3>
+                        <h3 class="team-header">Camila Garcia</h3>
                         <p class="job-title">Marketing</p>
                         <ul class="list social-media">
                             <li class="social-media-icon">
@@ -239,10 +262,13 @@
                     </div>
                 </li>
                 <li class="team-tile">
-                    <img src="./images/daniel.jpg" alt="photo of a young man in a grey shirt and dark brown hair"
-                        width="264" height="260" />
+                    <img src="./images/daniel@1x.jpg" alt="photo of a middle aged man in light blue shirt and beard"
+                        width="264" height="260" srcset="
+                  ./images/daniel@1x.jpg 1x,
+                  ./images/daniel@2x.jpg 2x
+                " />
                     <div class="team-description">
-                        <h3 class="small-header team-header">Daniel Wilson</h3>
+                        <h3 class="team-header">Daniel Wilson</h3>
                         <p class="job-title">UI Designer</p>
                         <ul class="list social-media">
                             <li class="social-media-icon">
@@ -431,8 +457,8 @@
                     placeholder="Text input"></textarea>
             </div>
             <div class="privacy-wrapper">
-                <input class="privacy-input visually-hidden" id="user-privacy" type="checkbox" value="true" name="user-privacy"
-                    required />
+                <input class="privacy-input visually-hidden" id="user-privacy" type="checkbox" value="true"
+                    name="user-privacy" required />
                 <label class="privacy-label" for="user-privacy">
                     <span class="checkbox-span">
                         <svg width="10" height="8" class="check-icon">
@@ -446,7 +472,67 @@
         </form>
     </div>
 </div>
+<div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle js-close-menu">
+        <svg class="mobile-menu-close" width="8" height="8">
+            <use href="./images/close.svg#icon-close-black-18dp-2-1"></use>
+        </svg>
+    </button>
+    <ul class="list mobile-page-navigation">
+        <li>
+            <a href="./index.html" class="link page-link page-link-studio">Studio</a>
+        </li>
+        <li>
+            <a href="./portfolio.html" class="link page-link">Portfolio</a>
+        </li>
+        <li><a href="" class="link page-link">Contacts</a></li>
+    </ul>
+    <address>
+        <ul class="list mobile-address-list">
+            <li>
+                <a href="tel:+110001111111" class="link mobile-phone">+11 (000) 111-11-11</a>
+            </li>
+            <li>
+                <a href="mailto:info@devstudio.com" class="link mobile-email">info@devstudio.com</a>
+            </li>
+        </ul>
+    </address>
+    <ul class="list mobile-social-media">
+        <li class="mobile-social-media-list">
+            <a class="link mobile-socialmedia-icon" href="">
+                <svg class="mobile-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+            </a>
+        </li>
+        <li class="mobile-social-media-list">
+            <a class="link mobile-socialmedia-icon" href="">
+                <svg class="mobile-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+            </a>
+        </li>
+        <li class="mobile-social-media-list">
+            <a class="link mobile-socialmedia-icon" href="">
+                <svg class="mobile-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+            </a>
+        </li>
+        <li class="mobile-social-media-list">
+            <a class="link mobile-socialmedia-icon" href="">
+                <svg class="mobile-svg" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+            </a>
+        </li>
+    </ul>
+</div>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
 <script src="./js/modal.js"></script>
+<script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
