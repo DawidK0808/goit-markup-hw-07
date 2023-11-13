@@ -583,7 +583,6 @@ button {
   .modal-input:focus + .field-icon {
     fill: var(--iris-color);
   }
-
   .field-icon {
     position: absolute;
     left: 16px;
@@ -972,12 +971,11 @@ button {
     transform: translateY(0%);
   }
 }
-
 /* tablet styles */
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 
   .header-layout {
@@ -1035,7 +1033,6 @@ button {
     bottom: -1px;
     left: 0px;
   }
-
   .address-list {
     font-style: normal;
     display: flex;
@@ -1120,7 +1117,6 @@ button {
     max-width: 500px;
     margin-bottom: 36px;
   }
-
   .services-section {
     display: flex;
     flex-direction: row;
@@ -1196,7 +1192,7 @@ button {
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
   }
 
   .section {
